@@ -3,7 +3,7 @@ from PIL import Image
 import os
 
 def preprocess_text_data(text_file):
-    df = pd.read_csv(text_file)  # Load and preprocess text data
+    df = pd.read_csv(text_file)  
     return df
 
 def preprocess_image_data(image_folder):
